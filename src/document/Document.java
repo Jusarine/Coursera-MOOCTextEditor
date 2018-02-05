@@ -88,7 +88,7 @@ public abstract class Document {
 		return numSyllables;
 	}
 
-//	protected int countSyllables(String word) // my code
+//	protected int countSyllables(String word)
 //	{
 //		// TODO: Implement this method so that you can call it from the
 //	    // getNumSyllables method in BasicDocument (module 2) and
@@ -114,7 +114,7 @@ public abstract class Document {
 //		return count;
 //	}
 
-//	private boolean isVowel(char c){ // my code
+//	private boolean isVowel(char c){
 //		if(c=='a'||c=='e'||c=='i'||c=='o'||c=='u'||c=='y') return true;
 //		else if(c=='A'||c=='E'||c=='I'||c=='O'||c=='U'||c=='Y') return true;
 //		return false;
