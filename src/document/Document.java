@@ -87,40 +87,6 @@ public abstract class Document {
 		//System.out.println( "found " + numSyllables);
 		return numSyllables;
 	}
-
-//	protected int countSyllables(String word)
-//	{
-//		// TODO: Implement this method so that you can call it from the
-//	    // getNumSyllables method in BasicDocument (module 2) and
-//	    // EfficientDocument (module 3).
-//
-//		int count=0;
-//		for(int i=0; i<word.length(); i++){
-//			char a = word.charAt(i);
-//			if(isVowel(a)){
-//				if(i==word.length()-1&&a!='e') count++;
-//				else if(i==0&&!isVowel(word.charAt(i+1))) count++;
-//				else if(i==word.length()-1&&i!=0&&a=='e'){
-//					if(isVowel(word.charAt(i-1))) count++;
-//				}
-//
-//				if(i!=word.length()-1&&i!=0) {
-//				    if (!isVowel(word.charAt(i - 1)) && !isVowel(word.charAt(i + 1))) count++;
-//					else if (isVowel(word.charAt(i - 1)) && !isVowel(word.charAt(i + 1))) count++;
-//				}
-//			}
-//		}
-//		if(count==0) count++;
-//		//System.out.println(word+"-"+count);
-//		return count;
-//	}
-
-//	private boolean isVowel(char c){
-//		if(c=='a'||c=='e'||c=='i'||c=='o'||c=='u'||c=='y') return true;
-//		else if(c=='A'||c=='E'||c=='I'||c=='O'||c=='U'||c=='Y') return true;
-//		return false;
-//	}
-
 	
 	/** A method for testing
 	 * 
